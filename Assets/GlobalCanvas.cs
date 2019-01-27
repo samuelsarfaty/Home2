@@ -14,7 +14,7 @@ public class GlobalCanvas : MonoBehaviour {
 
 	void Awake(){
 		gm = GameObject.FindObjectOfType<GameManager> ();
-		populationSlider.maxValue = gm.MaxNHumans / 100000;
+		populationSlider.maxValue = gm.MaxNHumans;
 
 	}
 
@@ -24,6 +24,6 @@ public class GlobalCanvas : MonoBehaviour {
 
 	void Update(){
 		scoreText.text = (gm.Score / 1000000).ToString ();
-		populationSlider.value = gm.NumberOfHumans / 100000;
+		populationSlider.value = gm.NumberOfHumans;
 	}
 }

@@ -7,6 +7,8 @@ public class Planet : MonoBehaviour {
 
 	[SerializeField] public int maxPeople = 0;
 	[SerializeField] public int currentPeople = 0;
+	[SerializeField] GameObject human;
+	private bool humanPresent;
     [SerializeField] long pointsPerHuman;
     //[SerializeField] Slider mySlider;
 	[SerializeField] Text myText;
@@ -28,11 +30,18 @@ public class Planet : MonoBehaviour {
     {
         OrbitCenter = GameObject.FindWithTag("Earth");
         gManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+		humanPresent = false;
+		human.SetActive (false);
+
     }
 
     void Update()
     {
         transform.RotateAround(OrbitCenter.transform.position, Vector3.up, Speed * Time.deltaTime);
+		if(currentPeople >= maxPeople && !humanPresent){
+			human.SetActive (true);
+			humanPresent = true;
+		}
     }
 
 	void OnCollisionEnter(Collision other){
