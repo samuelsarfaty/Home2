@@ -165,7 +165,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1220208870194442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -307, y: 0, z: -76}
+  m_LocalPosition: {x: 242, y: 0, z: -65.1}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 4035991384442678}
@@ -312,7 +312,7 @@ MonoBehaviour:
   maxPeople: 10
   currentPeople: 0
   human: {fileID: 1341296091750036}
-  pointsPerHuman: 1
+  pointsPerHuman: 2
   myText: {fileID: 114963545537909234}
   gManager: {fileID: 0}
   OrbitCenter: {fileID: 0}

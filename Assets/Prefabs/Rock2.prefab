@@ -94,7 +94,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1882168792624392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 71.6}
+  m_LocalPosition: {x: 0, y: 0, z: 155.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4668070425129786}
@@ -116,7 +116,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ec69c6ea90e673e4d8b7669c11360b80, type: 3}
+  - {fileID: 2100000, guid: 43245b5ae8722b247aa9d5a0fc934554, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OrbitCenter: {fileID: 0}
-  Speed: 50
+  Speed: 40
   HitStrength: 500
 --- !u!135 &135856114336685494
 SphereCollider:

@@ -375,7 +375,7 @@ MonoBehaviour:
   maxPeople: 1
   currentPeople: 0
   human: {fileID: 1252061368505620}
-  pointsPerHuman: 1
+  pointsPerHuman: 2
   myText: {fileID: 114170576826868340}
   gManager: {fileID: 0}
   OrbitCenter: {fileID: 0}
