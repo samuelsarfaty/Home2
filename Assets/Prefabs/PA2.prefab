@@ -233,7 +233,6 @@ GameObject:
   - component: {fileID: 114220986316159258}
   - component: {fileID: 135324831436163252}
   - component: {fileID: 114443080451151052}
-  - component: {fileID: 114999350693483342}
   m_Layer: 0
   m_Name: PA2
   m_TagString: Untagged
@@ -1778,17 +1777,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0/0
---- !u!114 &114999350693483342
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1220208870194442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b147548b25c7d9449ce7b756e751534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &135324831436163252
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -1945,6 +1933,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2.076}
+  m_AnchoredPosition: {x: 0, y: 3.08}
   m_SizeDelta: {x: 183.6309, y: 42.6775}
   m_Pivot: {x: 0.5, y: 0.5}
