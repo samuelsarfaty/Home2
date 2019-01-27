@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4405021030874636}
   - component: {fileID: 135727230524946140}
   - component: {fileID: 135428397330027080}
+  - component: {fileID: 114692205655592072}
   m_Layer: 0
   m_Name: Earth2
   m_TagString: Earth
@@ -115,6 +116,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1811931825368076}
   m_Mesh: {fileID: 4300000, guid: 8bb4fd49d7e008f4ea7956bb04866f03, type: 3}
+--- !u!114 &114692205655592072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880094063310908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb11f3f77cf0774d9c68caad3f0b95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 100
 --- !u!135 &135428397330027080
 SphereCollider:
   m_ObjectHideFlags: 1

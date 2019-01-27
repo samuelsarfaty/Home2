@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 135933831881889832}
   - component: {fileID: 114672978662463392}
   - component: {fileID: 135668819138879934}
+  - component: {fileID: 114965583451110480}
   m_Layer: 0
   m_Name: PD
   m_TagString: Untagged
@@ -354,6 +355,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b147548b25c7d9449ce7b756e751534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114965583451110480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1822395022931634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb11f3f77cf0774d9c68caad3f0b95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!135 &135668819138879934
 SphereCollider:
   m_ObjectHideFlags: 1

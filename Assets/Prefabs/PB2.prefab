@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 135756068306968670}
   - component: {fileID: 114227064508245700}
   - component: {fileID: 135196935729667270}
+  - component: {fileID: 114982391284435432}
   m_Layer: 0
   m_Name: PB2
   m_TagString: Untagged
@@ -281,6 +282,18 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114982391284435432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1871675160972034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb11f3f77cf0774d9c68caad3f0b95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!135 &135196935729667270
 SphereCollider:
   m_ObjectHideFlags: 1

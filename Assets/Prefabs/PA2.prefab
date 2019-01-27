@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 114220986316159258}
   - component: {fileID: 135324831436163252}
   - component: {fileID: 114173646981857198}
+  - component: {fileID: 114443080451151052}
   m_Layer: 0
   m_Name: PA2
   m_TagString: Untagged
@@ -227,6 +228,18 @@ MonoBehaviour:
   gManager: {fileID: 0}
   OrbitCenter: {fileID: 0}
   Speed: 2
+--- !u!114 &114443080451151052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220208870194442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb11f3f77cf0774d9c68caad3f0b95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!114 &114445028993166488
 MonoBehaviour:
   m_ObjectHideFlags: 1
