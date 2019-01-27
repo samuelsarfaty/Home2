@@ -23,7 +23,7 @@ public class GlobalCanvas : MonoBehaviour {
 	}
 
 	void Update(){
-		scoreText.text = (gm.Score / 1000000).ToString ();
+		scoreText.text = gm.Score.ToString ();
 		populationSlider.value = gm.NumberOfHumans;
 	}
 }

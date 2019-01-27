@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour {
 
     public long StartNumberOfHumans;
 
-    public long NumberOfHumans;
+    public float NumberOfHumans;
 
     public float humanBreedSpeed;
 
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour {
         Score = 0;
         NumberOfHumans = StartNumberOfHumans;
         //Caclualte the breeding speed to have the secoonds to die ratio defined
-        humanBreedSpeed = (MaxNHumans - StartNumberOfHumans) / secondsToDieRatio;
+        //humanBreedSpeed = (MaxNHumans - StartNumberOfHumans) / secondsToDieRatio;
 
         //Create the planets
     }
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour {
         else
         {
             //Add more humans per second
-            NumberOfHumans += (long) (Time.deltaTime * humanBreedSpeed);
+			NumberOfHumans += humanBreedSpeed * Time.deltaTime;
             //Check the Score
         }
 	}

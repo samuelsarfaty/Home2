@@ -1269,7 +1269,7 @@ Prefab:
     - target: {fileID: 114456061607737100, guid: 51aa5d2648b058347b31aa617ab9f7f1,
         type: 2}
       propertyPath: humanBreedSpeed
-      value: 50
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51aa5d2648b058347b31aa617ab9f7f1, type: 2}

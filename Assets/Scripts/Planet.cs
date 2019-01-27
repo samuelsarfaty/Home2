@@ -50,8 +50,13 @@ public class Planet : MonoBehaviour {
             //Add score to the Game manager
             gManager.Score += pointsPerHuman;
 
-            //Take the people out from earth population (We dont want them to just shoot peolpe into space, so they only get the reward if people land on a new planet)
-            gManager.NumberOfHumans -= pointsPerHuman;
+			if(gManager.NumberOfHumans > 0){
+				//Take the people out from earth population (We dont want them to just shoot peolpe into space, so they only get the reward if people land on a new planet)
+				gManager.NumberOfHumans -= pointsPerHuman;
+			} else {
+				gManager.NumberOfHumans = 0;
+			}
+
 
             //Handle the maximum people on the planet stuff
             currentPeople++;
