@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 6624c9397af97024d9e7736de12c96e9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: astronaut:Head
+    100002: astronaut:Head_CTRL
+    100004: astronaut:L_Ankle
+    100006: astronaut:L_Clavicle
+    100008: astronaut:L_Clavicle_CTRL
+    100010: astronaut:L_Elbow
+    100012: astronaut:L_Elbow_CTRL
+    100014: astronaut:L_Foot
+    100016: astronaut:L_foot_CTRL
+    100018: astronaut:L_Hand
+    100020: astronaut:L_Hip
+    100022: astronaut:L_Hip_CTRL
+    100024: astronaut:L_Knee
+    100026: astronaut:L_Knee_CTRL
+    100028: astronaut:L_Toes_CTRL
+    100030: astronaut:L_Wrist
+    100032: astronaut:L_Wrist_CTRL
+    100034: astronaut:Master_CTRL
+    100036: astronaut:Neck
+    100038: astronaut:Neck2
+    100040: astronaut:Neck2_CTRL
+    100042: astronaut:Neck_CTRL
+    100044: astronaut:R_Ankle
+    100046: astronaut:R_Clavicle
+    100048: astronaut:R_Clavicle_CTRL
+    100050: astronaut:R_Elbow
+    100052: astronaut:R_Elbow_CTRL
+    100054: astronaut:R_Foot
+    100056: astronaut:R_foot_CTRL
+    100058: astronaut:R_Hand
+    100060: astronaut:R_Hip
+    100062: astronaut:R_Hip_CTRL
+    100064: astronaut:R_Knee
+    100066: astronaut:R_Knee_CTRL
+    100068: astronaut:R_Toes
+    100070: astronaut:R_Toes_CTRL
+    100072: astronaut:R_Wrist
+    100074: astronaut:R_Wrist_CTRL
+    100076: astronaut:Ragdoll
+    100078: astronaut:Root
+    100080: astronaut:Root_CTRL
+    100082: astronaut:Spine
+    100084: astronaut:Spine2
+    100086: astronaut:Spine2_CTRL
+    100088: astronaut:Spine3
+    100090: astronaut:Spine3_CTRL
+    100092: astronaut:Spine_CTRL
+    100094: astronaut:transform1
+    100096: //RootNode
+    400000: astronaut:Head
+    400002: astronaut:Head_CTRL
+    400004: astronaut:L_Ankle
+    400006: astronaut:L_Clavicle
+    400008: astronaut:L_Clavicle_CTRL
+    400010: astronaut:L_Elbow
+    400012: astronaut:L_Elbow_CTRL
+    400014: astronaut:L_Foot
+    400016: astronaut:L_foot_CTRL
+    400018: astronaut:L_Hand
+    400020: astronaut:L_Hip
+    400022: astronaut:L_Hip_CTRL
+    400024: astronaut:L_Knee
+    400026: astronaut:L_Knee_CTRL
+    400028: astronaut:L_Toes_CTRL
+    400030: astronaut:L_Wrist
+    400032: astronaut:L_Wrist_CTRL
+    400034: astronaut:Master_CTRL
+    400036: astronaut:Neck
+    400038: astronaut:Neck2
+    400040: astronaut:Neck2_CTRL
+    400042: astronaut:Neck_CTRL
+    400044: astronaut:R_Ankle
+    400046: astronaut:R_Clavicle
+    400048: astronaut:R_Clavicle_CTRL
+    400050: astronaut:R_Elbow
+    400052: astronaut:R_Elbow_CTRL
+    400054: astronaut:R_Foot
+    400056: astronaut:R_foot_CTRL
+    400058: astronaut:R_Hand
+    400060: astronaut:R_Hip
+    400062: astronaut:R_Hip_CTRL
+    400064: astronaut:R_Knee
+    400066: astronaut:R_Knee_CTRL
+    400068: astronaut:R_Toes
+    400070: astronaut:R_Toes_CTRL
+    400072: astronaut:R_Wrist
+    400074: astronaut:R_Wrist_CTRL
+    400076: astronaut:Ragdoll
+    400078: astronaut:Root
+    400080: astronaut:Root_CTRL
+    400082: astronaut:Spine
+    400084: astronaut:Spine2
+    400086: astronaut:Spine2_CTRL
+    400088: astronaut:Spine3
+    400090: astronaut:Spine3_CTRL
+    400092: astronaut:Spine_CTRL
+    400094: astronaut:transform1
+    400096: //RootNode
+    2100000: astronaut_lambert2
+    4300000: astronaut:Ragdoll
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: astronaut:Ragdoll
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d76686d94d9173241bfeaca7b47bd1ee,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
